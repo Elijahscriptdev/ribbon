@@ -1,0 +1,46 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #e1267b;
+  border-radius: 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+span {
+  color: #ffffff;
+  border-right: 1px solid #ececec;
+  height: 6.5rem;
+}
+
+.circle-container {
+  margin: auto;
+}
+
+.circle {
+  background: #ffffff;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  color: #e1267b;
+  font-weight: bold;
+  font-size: 0.6rem;
+  margin: auto;
+  padding-top: 3px;
+}
+
+.blue {
+  color: #23b2f5;
+  padding-top: 3px;
+}
+
+.bal p {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.font p {
+  font-weight: bold;
+  font-size: 1.3rem;
+}

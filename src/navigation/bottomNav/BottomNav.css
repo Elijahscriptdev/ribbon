@@ -1,0 +1,9 @@
+.bottom-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.bottom-nav ul li{
+    font-size: .8rem;
+}

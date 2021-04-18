@@ -1,18 +1,24 @@
 import React from "react";
 import "./TopNav.css";
+import { BsPersonFill } from "react-icons/bs";
+import { BsBellFill } from "react-icons/bs";
 
 const TopNav = () => {
   return (
-    <div className="top-nav">
+    <div className='top-nav'>
       <div>
-        <ul>
-          <li>logo</li>
+        <ul className='logo'>
+          <li>ribbon</li>
         </ul>
       </div>
-      <div className="top-nav-links">
+      <div className='top-nav-links'>
         <ul>
-          <li className="">one</li>
-          <li>two</li>
+          <li className='mx-2'>
+            <BsPersonFill className='person' />
+          </li>
+          <li>
+            <BsBellFill className='bell' />
+          </li>
         </ul>
       </div>
     </div>
