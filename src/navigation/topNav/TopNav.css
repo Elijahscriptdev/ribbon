@@ -1,0 +1,14 @@
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top-nav-links ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.top-nav-links li {
+    margin: 0 10px;
+}
