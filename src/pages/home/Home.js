@@ -1,17 +1,15 @@
 import React from "react";
 import Card from "../../components/Card";
 import FormContainer from "../../components/FormContainer";
-import BottomNav from "../../navigation/bottomNav/BottomNav";
-import TopNav from "../../navigation/topNav/TopNav";
+import Recent from "../../components/Recent";
 import "./Home.css";
 
 const Home = () => {
   return (
     <div>
-      <TopNav />
       <Card />
       <FormContainer />
-      <BottomNav />
+      <Recent />
     </div>
   );
 };
