@@ -1,7 +1,7 @@
 import "./App.css";
 import TopNav from "./navigation/topNav/TopNav";
 import Home from "./pages/home/Home";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import BottomNav from "./navigation/bottomNav/BottomNav";
 import Activity from "./pages/activity/Activity";
 import Earn from "./pages/earn/Earn";

@@ -7,7 +7,7 @@ const FormContainer = () => {
       <div className='form-header'>
         <h3>Select Currency:</h3>
       </div>
-      <Form className='p'>
+      <Form className='p-1'>
         <FormGroup className='row'>
           <Input
             type='select'
