@@ -21,7 +21,7 @@ Create a simple react app with create-react-app and design a homepage like this 
 
 ## Live Demo
 
-[Live Demo Link](https://fichaya-frontend-test.netlify.app/)
+[Live Demo Link](https://cranky-swirles-6cc47b.netlify.app/)
 ---
 
 ## Author
