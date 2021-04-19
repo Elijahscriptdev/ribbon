@@ -44,3 +44,40 @@ span {
   font-weight: bold;
   font-size: 1.3rem;
 }
+
+.form-header {
+  background: #efefef;
+}
+
+.form-header h3 {
+  font-size: 0.8rem;
+  color: #5cc3f8;
+  font-weight: bold;
+  padding: 10px 5px 3px;
+}
+
+.select {
+  background-color: #d9d9d9 !important;
+}
+
+.input {
+  background-color: #f3f3f3 !important;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.button Button {
+    background: #04A9F4;
+    color: #ffffff;
+    border: none;
+    width: 120px;
+}
+
+.button Button:hover {
+    background: #036b9b;
+    color: #ffffff;
+}
