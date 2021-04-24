@@ -3,29 +3,15 @@ import React from "react";
 const Card = () => {
   return (
     <div>
-      <div className='cards pt-2'>
-        <div>
-          <div className='circle-container'>
-            <div className='circle'>AFYA</div>
-          </div>
-          <div className='font'>
-            <p>143.00</p>
-          </div>
-          <div className='bal'>
-            <p>Balance</p>{" "}
-          </div>
+      <div className='cards'>
+        <div className='mt-1'>
+          <h3>WALLET BALANCE:</h3>
         </div>
-        <span></span>
-        <div>
-          <div className='circle-container'>
-            <div className='circle blue'>ZAR</div>
-          </div>
-          <div className='font'>
-            <p>R21.00</p>{" "}
-          </div>
-          <div className='bal'>
-            <p>Equivalent</p>{" "}
-          </div>
+        <div className='mt-1'>
+          <h3>TOKEN BALANCE:</h3>
+        </div>
+        <div className='mt-1'>
+          <h3>NARIA BALANCE:</h3>
         </div>
       </div>
     </div>

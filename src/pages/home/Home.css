@@ -1,13 +1,18 @@
 .cards {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  background-color: #e1267b;
-  border-radius: 10px;
+  flex-direction: column;
+  background-color: #eeeeee;
+  border: 1px solid rgb(97, 96, 96);
+  border-radius: 20px;
   text-align: center;
-  color: #ffffff;
+  /* color: #ffffff; */
   effect: Drop shadow;
   offset: 0px, 2px rgba(0, 0, 0, 0.04);
+}
+
+.cards h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 span {

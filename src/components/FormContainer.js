@@ -4,20 +4,18 @@ import { Button, Form, FormGroup, Input } from "reactstrap";
 const FormContainer = () => {
   return (
     <div className='my-3'>
-      <div className='form-header'>
+      <div className='form-header text-left'>
         <h3>Select Currency:</h3>
       </div>
       <Form className='p-1'>
         <FormGroup className='row'>
           <Input
-            type='select'
+            type='text'
             name='select'
             id='exampleSelect'
             className='col-3 ml-3 select'
-          >
-            <option>AFYA</option>
-            <option>ZAR</option>
-          </Input>
+            placeholder='TOKEN'
+          />
           <Input
             type='text'
             name='text'
